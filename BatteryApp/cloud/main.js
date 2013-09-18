@@ -7,8 +7,7 @@ Parse.Cloud.define("averageBatteryLevel", function(request, response) {
   query.find({
     success: function(results) {
       var sum = 0;
-      var total = new Array();
-      
+      var total = new Array();   
       for (var i = 0; i < results.length; ++i) {	
       var abc = results.length;
         sum += results[i].get("batteryLevel");
