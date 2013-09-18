@@ -1,0 +1,11 @@
+{
+    "applications": {
+        "BatteryApp": {
+            "applicationId": "Ia3MVJF2GrDwkRwR0Ol41GOzt71x1StU482l9PxI", 
+            "masterKey": "lPMCAPs9i4TCqMFVxonjVaPkLm9lNtdL9KujYOH2"
+        }, 
+        "_default": {
+            "link": "BatteryApp"
+        }
+    }
+}
